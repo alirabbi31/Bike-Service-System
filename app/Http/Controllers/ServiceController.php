@@ -29,7 +29,7 @@ class ServiceController extends Controller
             $partShares[] = [
                 'part_id' => $part->id,
                 'code' => $part->code,
-                'retail_price' => $part->retail_price,
+                'retail_price' => $part->retail_price + $discountForpart,
                 'discount' => $discountForpart,
                 'final_price' => $finalPrice,
             ];
