@@ -38,7 +38,7 @@ defineProps({
                                 <td class="px-2 py-4">{{ service.code }}</td>
                                 <td class="px-2 py-4">{{ service.retail_price }}</td>
                                 <td class="px-2 py-4">{{ service.discount.toFixed(2) }}</td>
-                                <td class="px-2 py-4">{{ service.discount }}</td>
+                                <td class="px-2 py-4">{{ service.discount.toFixed(2) }} %</td>
                                 <td class="px-2 py-4">{{ service.final_price }}</td>
                             </tr>
                         </template>
